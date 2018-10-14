@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sunpy1106/config-repo.git
+          username: sunpy1106@gmail.com
+          password: 1355966o9o2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+env:
+  dev
