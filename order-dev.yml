@@ -8,5 +8,5 @@ eureka:
 env:
   dev
 girl:
-  name:lily
-  age:18
+  name: lily
+  age: 18
